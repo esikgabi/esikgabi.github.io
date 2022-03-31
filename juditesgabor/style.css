@@ -1,0 +1,17 @@
+.fullscreenDiv {
+        background-color: #e8e8e8;
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        top: 0px;
+        left: 0;
+        position: absolute;
+}
+.center {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        font-size: 30px;
+        font-family: monospace;
+        color: #1888ec;
+}
