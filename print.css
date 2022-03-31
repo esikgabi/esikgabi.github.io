@@ -1,0 +1,122 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+header {
+	overflow: hidden;
+}
+
+header hgroup {
+	width: 60%;
+	float: left;
+	padding: 35px 0;
+}
+
+header figure {
+	width: 40%;
+	float: right;
+}
+
+.contactform {
+	display: none;
+}
+
+.grid_8 {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	padding-left: 10px;
+}
+
+.grid_8.apropos {
+    width: 57%;
+    margin-right: 5px;
+    text-align: justify;
+    padding-left: 0px;
+}
+
+.grid_8.competences {
+    width: 40%;
+}
+
+.grid_16 {
+	clear: both;
+	padding-left: 10px;
+}
+
+
+h1, h2 {
+    padding-left: 15px;
+}
+
+
+h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin:30px 0 10px 0;
+}
+
+
+h4 {
+    line-height: 100%;
+    padding: 5px 0px;
+    margin: 5px 0px;
+
+}
+
+.competences li {
+	display:inline-block;
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+	margin-right: 10px;	
+}
+
+.contact ul li {
+	list-style: square;
+	margin-left: 40px;
+}
+
+.contact ul li.form {
+	display: none;
+}
+
+p {
+  orphans: 3; /* pas de ligne seule en bas */
+  widows: 3; /* pas de ligne seule en haut */
+  padding-left: 10px;
+
+}
+
+ul {
+    padding-left: 10px;
+}
+
+.grid_16.loisirs.formations ul {
+    padding-left: 30px;
+}
+
+.lieu {
+    padding-left: 10px;
+}
+
+.contact .lieu {
+    padding-left: 0px;
+}
+
+ul li p {
+    margin: 5px 0px;
+}
+
+.loisirs p{
+    margin: 10px 0px;
+}
+
+.loisirs ul{
+    margin: 0px 60px;
+}
+
+.loisirs ul h4{
+    line-height: 100%;
+    font-size: 15px;
+}
